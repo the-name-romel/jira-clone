@@ -3,10 +3,14 @@ import { Test } from "./features/test";
 
 export default function Home() {
   return (
-    <div>
-      <Button variant="default">Click me</Button>
-      <p className="text-red-500 font-semibold">Romel</p>
-      <Test />
+    <div className="flex gap-4">
+      <Button>Primary</Button>
+      <Button variant="secondary">secondary</Button>
+      <Button variant="destructive">destructive</Button>
+      <Button variant="teritary">Teritary</Button>
+      <Button variant="outline">outline</Button>
+      <Button variant="ghost">ghost</Button>
+      <Button variant="muted">muted</Button>
     </div>
   );
 }
